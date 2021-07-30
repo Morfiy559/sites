@@ -1,0 +1,308 @@
+@media (max-width: 1200px)
+    .btn1
+        width: 100%
+@media ( max-width: 991px )
+    .content1
+        header
+            .row
+                .ico
+                    display: flex
+                    flex-wrap: wrap
+                    align-content: space-around
+                    padding: 0 15px
+                    justify-content: space-around
+    .content2
+        .margin-top80
+            hr
+                margin-top: 63px
+    .content3
+        .title4
+            text-align: center
+    .wrapper4 
+        .title5
+            margin-top: 5px
+    .content4
+        .block_btn
+            #b2 
+                width: 105px
+            #b3
+                width: 100px
+        .block7
+            img
+                width: 100%
+        .text
+            width: 100%
+            .title7
+                font-size: 15px
+            .subtitle7
+                font-size: 12px
+        .flex
+            display: flex
+    .content5
+        .container
+            .title8
+                margin-top: 5px
+            .subtitle8
+                margin-top: 0px
+    .content6
+        .title9
+            margin-top: 100px
+        .subtitle9
+            margin-top: 70px
+        ul
+            margin-top: 100px
+    .content7
+        #k1
+            margin-top: 50px
+        .container
+            .numbers
+                font-size: 40px
+    .content8
+        .container
+            .row
+                .col-4
+                    .block
+                        .title
+                            font-size: 15px
+                        .subtitle
+                            font-size: 12px
+                            margin-top: 26px
+                        .read-more
+                            margin-top: 36px
+    .content9
+        padding: 160px 0
+        img
+            width: 100%
+    .content10
+        .text
+            width: 100%
+            span 
+                display: none
+            &:after
+                content: '...'
+        .block1
+            .data:nth-last-child(2)
+                display: none
+            hr
+                &:nth-child(6)
+                    display: none    
+        .block1_text
+            &:last-child
+                display: none
+        .block2
+            .data
+                &:last-child
+                    display: none
+            hr 
+                &:nth-last-child(3)
+                    display: none
+        .block2_text
+            &:nth-last-child(2)
+                display: none   
+        .block3
+            margin-top: 12px
+            img 
+                width: 67%
+            .col-md-12
+                &:last-child
+                    margin-top: 10px
+@media ( max-width: 767px )
+    header
+        .row
+            flex-wrap: nowrap
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: rgba(0,0,0,.8) 
+        z-index: 2
+        width: 50%
+        top: 0
+        left: -100%
+        height: 100vh
+        transition: .6s all
+
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 30px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 20px
+        height: 16px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 5px
+            transition: .8s all
+        &_active
+            span 
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                    
+    .ord
+        order: 1
+    .title1
+        margin-top: 40px
+    .content1
+        height: 640px
+    .content2 
+        .margin-top80
+            hr 
+                margin-top: 30px
+    .wrapper4 
+        .title5 
+            font-size: 24px
+        .subtitle5
+            font-size: 16px
+    .content4
+        .block_btn
+            padding: 0 15px
+            button
+                height: auto
+        .text
+            padding: 10px
+            .title7
+                height: auto
+            .subtilte7
+                height: auto
+    .content5
+        .play
+            display: flex
+    .content6
+        height: auto
+        .container
+            .row
+                display: flex
+                flex-direction: column-reverse
+        .big_phone
+            display: flex
+    .content8
+        .container 
+            .row 
+                .col-4 
+                    .block
+                        padding: 0 5px
+                        .title
+                            height: auto
+                        .subtitle
+                            height: auto
+                            margin-top: 5px
+                        .read_more
+                            height: auto
+                            margin-top: 0
+    .content9
+        padding: 0
+        display: flex
+        height: 250px
+        .container
+           display: flex
+            align-items: center 
+    .content10
+        .block1_text
+            &:nth-child(5)  
+                display: none
+        .block1 
+            .data
+                &:nth-child(4)
+                    display: none
+        .block2 
+            .data
+                &:nth-last-child(4)
+                    display: none
+        .block2_text
+            &:nth-last-child(5)
+                display: none
+    .content11
+        padding: 0
+        display: flex
+        .container
+            display: flex
+            align-items: center
+@media ( max-width: 575px )
+    .wrapper4 
+        height: 180px
+        .btn5
+            margin: 0
+            margin-top: 25px
+    .content7
+        display: flex
+        .container
+            padding: 30px 15px 30px 15px
+            .row
+                // width: 100%
+                
+            .numbers
+                font-size: 30px
+    .withoutp
+        padding: 0
+    .content10
+        .logo_title
+            font-size: 22px
+        .Title
+            font-size: 18px
+    .content4 
+        
+        .block_btn
+            display: flex
+            flex-direction: column
+            #b1 
+                width: auto
+            #b2 
+                width: auto
+            #b3 
+                width: auto
+            #b4 
+                width: auto
+            #b5 
+                width: auto 
+    .content8
+        .title10
+            height: auto
+        .subtitle10
+            height: auto
+            
+
+
+
+
+
+
+    
+            
+
+                
+          
+                
+
+
+            
+                
+
+
+            
+                
+                    
+                    
+
+                
+                       
+    
+
+
+        
